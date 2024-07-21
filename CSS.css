@@ -1,0 +1,107 @@
+.navBar{
+    background-color: Navy;
+    color: white;
+    weight:70%;
+    height: 15%;
+    border:;
+    display: flex;
+}
+.navBar h2{
+    margin-left: 20px;
+}
+.navMini{
+    margin-left: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.navBar p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+    border:;
+}
+.contentPart1{
+    margin-left: 20px;
+    border:;
+    width: 400px;
+}
+.contentPart1 input{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.contentPart1 button{
+    background-color: ForestGreen;
+}
+.contentPart1 span{
+    color: blue;
+    font-weight: 600;
+}
+.content1{
+    border:;
+    width: 600px;
+}
+.content1 h2{
+    color: navy;
+    font-weight: 600;
+}
+.content1 img{
+    width: 600px;
+    height: 300px;
+}
+.content1Mini1 span{
+    font-weight: 600;
+}
+.content1Part1 span{
+    font-weight: 600;
+}
+.table{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+td{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+tr:first-child{
+    background-color: black;
+    color:white;
+}
+tr:nth-child(2n){
+    background-color: limeGreen;
+}
+tr:nth-child(3n){
+    background-color: PaleGreen;
+}
+tr:nth-child(4n){
+    background-color: PaleGreen;
+}
+tr:nth-child(5n){
+    background-color: LightGrey;
+}
+tr:nth-child(6n){
+    background-color: LightGrey;
+}
+tr:nth-child(7n){
+    background-color: LightGrey;
+}
+tr:nth-child(8n){
+    background-color: LightGrey;
+}
+tr:nth-child(9n){
+    background-color: crimson;
+}
+tr:nth-child(10n){
+    background-color: crimson;
+}
+
+tr:last-child{
+    background-color: crimson;
+}
+
+
+
+
